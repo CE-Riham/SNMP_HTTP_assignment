@@ -1,0 +1,7 @@
+
+m	java:S117Z"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾·¢»8Š„ë©Å1
+o	java:S116"SRename this field "URLCombo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îæâ„8Ÿ„ë©Å1
+u	java:S116"TRename this field "MACColumn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´Äµ„ûÿÿÿÿ8Ÿ„ë©Å1
+{	java:S116&"ZRename this field "IPAddressColumn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À„„øÿÿÿÿ8Ÿ„ë©Å1
+L	java:S106S"+Replace this use of System.out by a logger.(®ıáëûÿÿÿÿ8¦„ë©Å1
+L	java:S106T"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8¦„ë©Å1

@@ -1,0 +1,5 @@
+
+l	java:S117c"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾Æƒ78 ”ÏªÅ1
+o	java:S116"SRename this field "URLCombo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îæâ„8¶”ÏªÅ1
+L	java:S106\"+Replace this use of System.out by a logger.(®ýáëûÿÿÿÿ8¼”ÏªÅ1
+L	java:S106]"+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ8¼”ÏªÅ1

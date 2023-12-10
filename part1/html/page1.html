@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>System Group</title>
+    <script src="../js/page1.js"></script>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Main</a></li>
+          <li><a href="page1.html" class="nav-clicked">System Group</a></li>
+          <li><a href="page2.html">UDP Table</a></li>
+          <li><a href="page3.html">ARP Table</a></li>
+          <li><a href="page4.html">TCP Table</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="footer">
+        <div class="nextprev">
+          <button onclick="window.location.href = '../index.html'">
+            Previous
+          </button>
+        </div>
+        <h1>System Group</h1>
+        <div class="nextprev" style="align-items: center">
+          <button onclick="window.location.href = 'page2.html'">Next</button>
+        </div>
+      </div>
+      <div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Description</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody id="systemGroupTable"></tbody>
+        </table>
+      </div>
+
+      <form action="../php/editor.php">
+        <label for="newSysContact">New sysContact:</label>
+        <input type="text" id="newSysContact" name="newSysContact" />
+
+        <label for="newSysName">New sysName:</label>
+        <input type="text" id="newSysName" name="newSysName" />
+
+        <label for="newSysLocation">New sysLocation:</label>
+        <input type="text" id="newSysLocation" name="newSysLocation" />
+        <input type="submit" value="Update" />
+      </form>
+    </div>
+  </body>
+</html>

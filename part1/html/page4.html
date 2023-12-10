@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>System Group</title>
+    <script src="../js/page4.js"></script>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Main</a></li>
+          <li><a href="page1.html">System Group</a></li>
+          <li><a href="page2.html">UDP Table</a></li>
+          <li><a href="page3.html">ARP Table</a></li>
+          <li><a href="page4.html" class="nav-clicked">TCP Table</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="footer">
+        <div class="nextprev">
+          <button onclick="window.location.href = 'page3.html'">
+            Previous
+          </button>
+        </div>
+        <h1>TCP Table</h1>
+        <div class="nextprev" style="align-items: center">
+          <button onclick="window.location.href = '../index.html'">Next</button>
+        </div>
+      </div>
+
+      <div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Index</th>
+              <th>State</th>
+              <th>Source IP</th>
+              <th>Source port</th>
+              <th>Destination IP</th>
+              <th>Destination port</th>
+            </tr>
+          </thead>
+          <tbody id="systemGroupTable"></tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
